@@ -1,0 +1,8 @@
+config SHIELD_OTTER_LEFT
+    def_bool $(shields_list_contains,otter_left)
+
+config SHIELD_OTTER_RIGHT
+    def_bool $(shields_list_contains,otter_right)
+
+config SHIELD_OTTER_DONGLE
+    def_bool $(shields_list_contains,otter_dongle)
